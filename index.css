@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
-	font: inherit;
+	/* font: inherit; */
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -44,15 +44,38 @@ table {
 *{
     box-sizing:border-box;
     border:1px solid grey;
+    font-family: 'Roboto Mono', monospace;
   }
 
   html{
     font-size:62.5%;
   }
-  
+
   body{
-    font-family: 'Noto Serif', serif;
     font-size:1.6rem;
     line-height:1.5;
-    color:#4f4f4f;
+    color: black;
   } 
+    /* header */
+  h1 {
+      font-family:'Chelsea Market', cursive;
+      font-size: 5rem;
+  }
+    /* nav bar */
+  .plan{
+    background: #FF764E;
+  }
+
+  .learn{
+    background:#5ED3EB;
+  }
+
+  .involved{
+     background: #FFCD69; 
+  }
+
+  a {
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+  }
