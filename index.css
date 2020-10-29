@@ -43,7 +43,7 @@ table {
 
 *{
     box-sizing:border-box;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
   }
@@ -58,27 +58,31 @@ table {
     color: black;
   } 
 
-    /* nav bar */
-
-  nav {
-    padding:0%;
-    margin: 0% 10% 0% 10%;
+  .container{
+      width: 80%;
+      margin:0 auto;
   }
+    /* nav bar */
     
-  .navButtons{
-      padding: 0%
+  .navButtonsTop{
+    padding: 4%;
+    text-align: center;
+    margin: 0% 10% 0% 10%;
   }
 
   .plan{
     background: #FF764E;
+    margin:0 4% 0 0;
   }
 
   .learn{
     background:#5ED3EB;
+    margin: 0 4% 0 4%;
   }
 
   .involved{
-    background: #FFCD69; 
+    background: #FFCD69;
+    margin: 0 0 0 4%;
   }
 
   a {
@@ -92,8 +96,8 @@ table {
     /* headings */
 
   .headings{
-      display: inline-block;
-      text-align: center;
+    display: inline-block;
+    text-align: center;
   }
   
   h1 {
@@ -132,7 +136,7 @@ table {
     display: inline-block;
     background: #DDB9A3;
     text-align: center;
-    margin: 0 10% 0 10%;
+    margin: 0 5% 0 5%;
     color: white;
   }
 
@@ -140,15 +144,18 @@ table {
 
     /* fire */
 
+
+
   .campfire{
     width: 10%;
     margin: 0 auto;
-    vertical-align: center;
+    display: block;
   }
 
     .fire{
     text-align: center;
     width:30%;
+    margin: 0 auto;
   }
 
   .fireRestrict{
@@ -159,12 +166,14 @@ table {
 
   .camping{
     text-align: center;
-    width:30%
+    width:30%;
+    margin: 0 auto;
   }
 
   .camper{
     width: 10%;
     margin: 0 auto;
+    display: block;
   }
 
   .fee{
@@ -174,11 +183,29 @@ table {
 
   .imgFooter{
     height: 50vh;
-    width: 100vw;
+    max-width: 100%;
   }
+  .landscape{
+    margin:0 auto;
+    display: block;
+    border: 2px solid green;
+    background-image: url("assets/footer_img.jpg");
+    background-position: 75% 25%;
+    background-size: cover;
+    /* height:350px; */
+    height: 25vh;
+}
+  /* .footer{
+    
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+  } */
 
-  .footer{
-      background: #F9E7DC;
-      text-align: center;
-      padding: 2%;
+  .navButtonsFoot{
+    padding: 4%;
+    text-align: center;
+    border: 2px solid red;
+    background: #F9E7DC;
+    width: 100%;
   }
