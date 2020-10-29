@@ -70,23 +70,29 @@ table {
     padding: 4%;
     text-align: center;
     margin: 0% 10% 0% 10%;
-    
-  }
+    }
+
+    /* a:hover{
+        background: rgb(48, 5, 49);
+        color: #facbf0;
+    } */
 
   .plan{
     background: #FF764E;
     margin:0 8% 0 0;
+    width: 13%;
   }
 
   .learn{
     background:#5ED3EB;
     margin: 0 8% 0 8%;
-    width: 10%;
+    width: 13%;
   }
 
   .involved{
     background: #FFCD69;
     margin: 0 0 0 8%;
+    width: 13%;
   }
 
   a {
@@ -221,4 +227,20 @@ table {
     /* border: 2px solid red; */
     background: #F9E7DC;
     width: 100%;
+  }
+
+ /* Glow */
+a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  a:hover, a:focus, a:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   }
