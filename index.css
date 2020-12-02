@@ -46,7 +46,6 @@ table {
 	border-spacing: 0;
 }
 *{
-    border: 3px solid blue;
     /* overflow: hidden; */
     max-width: 100%;
     font-family: 'Roboto Mono', monospace;
