@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@300;400;600&display=swap');
+
+/* font-family: 'Chelsea Market', cursive;
+font-family: 'Roboto Mono', monospace; */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    border: 3px solid blue;
+    /* overflow: hidden; */
+    max-width: 100%;
+    font-family: 'Roboto Mono', monospace;
+
+}
+/* body{
+    border: 3px solid black
+} */
+.container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+
+nav{
+    font-size: 2.3rem;
+    padding:2%;
+    max-width: 100%;
+    
+   
+}
+.plan{
+    background: #FF764E;
+    display: inline-block
+}
+.learn{
+    background: #5ED3EB;
+    display: inline-block;
+}
+.involved{
+    background: #FFCD69;
+    display: inline-block;
+}
+a{
+    padding:1.5%;
+    margin-left: 13%;
+    margin-right: 6%;
+    border-radius: 20px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+
+}
+.round{
+    max-width: 25%;
+    border-radius: 300px;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 6%;
+}
+.head{
+    display:inline-block;
+    max-width: 100%;
+}
+.yose{
+    display: inline-block;
+    max-width: 60%;
+    margin-left: 8%;
+    margin-bottom: 10%;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+h1{
+    font-family: 'Chelsea Market', cursive; 
+    font-size: 6rem;
+    display: inline-block;
+    padding: 4%;
+}
+h2{
+    font-size: 2.3rem;
+    display: inline-block;
+    word-wrap: break-word;
+    padding: 4%;
+    
+}
+.purple{
+    background:#DDB9A3;
+    font-size: 2.3rem;
+    color:white;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding:2%;
+}
+.secondP{
+    padding-top:2%;
+}
+
+.middle{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 100%;
+}
+.fire{
+    max-width: 100%;
+    text-align: center;
+}
+.fireImg{
+    max-width: 30%;
+}
+.camper{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.campImg{
+    max-width: 30%;
+}
+span{
+    font-weight: 600;
+}
+.campP{
+    max-width: 50%;
+    vertical-align: center;
+    margin-left: 25%;
+}
+.fireP{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.footerDiv{
+    max-width: 100%;
+    background-image: url("./assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    background-position: 70% 30%;
+    background-size: cover;
+
+    height: 400px;
+}
+.bottomNav{
+    background: #F9E7DC;
+}
